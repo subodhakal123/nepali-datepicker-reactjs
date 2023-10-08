@@ -387,7 +387,7 @@ class Calendar extends Component {
 
 	render() {
 		return (
-			<div style={{ position: 'relative' }}>
+			<div style={{ position: 'initial' }}>
 				<div
 					ref={this.wrapperRef}
 					style={{ top: this.inputRef.current ? this.inputRef.current.clientHeight + 5 : 31 }}
